@@ -75,7 +75,8 @@
 
 </head>
 <body>
-    <img src=""screenshot2.png"" alt="justice-connect logo">
+   <img src="screenshot/screenshot2.png" alt="justice-connect logo">
+
 <header>
     <h1>Welcome to Justice Connect</h1>
 </header>
