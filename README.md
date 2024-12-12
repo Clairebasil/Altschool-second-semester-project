@@ -137,11 +137,11 @@
 1. **Installed Certbot and Obtained a Free SSL Certificate from Let's Encrypt**:
    - Installed Certbot and the Apache plugin:
      ```bash
-     sudo apt install certbot python3-certbot-apache -y
+     sudo apt install certbot python3-certbot-nginx -y
      ```
    - Ran the following command to request an SSL certificate from Let’s Encrypt:
      ```bash
-     sudo certbot --apache
+     sudo certbot --nginx
      ```
    - Followed the prompts to configure the SSL certificate for my domain (if using a domain) or the public IP address.
 
