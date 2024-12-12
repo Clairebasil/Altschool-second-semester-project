@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justice Connect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+
+        }
+        header {
+            background-color: #76c7f7;
+            color: rgb(11, 10, 10);
+            padding: 10px 0;
+        }
+        .content {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2,h3{
+            background-color: #76c7f7;
+        }
+      img {
+            width: 150px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+    </style>
+
+</head>
+<body>
+    <img src="jc-connect
+.jpeg" alt="Justice Connect Logo" alt="justice-connect logo">
+<header>
+    <h1>Welcome to Justice Connect</h1>
+</header>
+
+<section class="content">
+ 
+    <p>Our mission is clear: to diminish instances of injustice, mitigate associated mental health challenges, and ensure equitable access to justice for all.</p>
+    <p>Justice Connect is a platform dedicated to empowering individuals and communities by providing accessible legal resources and support. Its mission is to bridge the gap between people and the legal services they need, offering a range of services including legal consultations, advocacy, and educational tools. Whether you’re seeking advice, representation, or simply need to understand your rights, Justice Connect aims to make legal assistance easier to access, ensuring that everyone has the opportunity to seek justice and navigate the legal system with confidence.</p>
+</section>
+
+<section>
+    <h2>About Me</h2>
+    <p>Hello! Meet Akpuogwu Claire Ifunanya, a passionate Devops Engineer with a love for technology, creativity and Innovation. I joined Altschool Africa this year being 2024 and so far i can categoratically say that i'm one step away from becoming the greatest female Devops Africa ever produced, i'm so excited about this journey and the project (Justice Connect) my team mates and i are working on.</p>
+
+
+    <h3>My Bio</h3>
+    <p>I hail from Anambra state but i was born and raised in Lagos Nigeria, I have always been a child that yearned for growth and distinction in any field i find myself in especially as a female child from a family of 5 girls. I graduated with a degree in Bachelor of Science from the University of Nigeria Nsukka, and since then i've worked in a couple of Organizations offering my quota to society, When I'm not working, I enjoy reading novels, gyming, travelling and sleeping.</p>
+
+    <p>Some interesting facts about me:
+        <ul>
+            <li>I was the Vice President of my department in University, Class rep and Labour prefect in secondary school and head girl in primary school</li>
+            <li>I am fluent in English and Igbo.</li>
+            <li>I am a certified Human Resource Personnel</li>
+            <li>I am passionate about tech innovation, education, execellence and growth.</li>
+        </ul>
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Akpuogwu Ifunanya Claire. All Rights Reserved.</p>
+</footer>
+
+
+
+    </body>
+</html>
