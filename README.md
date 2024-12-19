@@ -22,7 +22,7 @@
      sudo apt update
      sudo apt install apache2 -y
      ```
-   - This installs the apache2 HTTP server, which serves your web content.
+   - This installs the apache2 HTTP server, which serves the web content.
 
 2. **Ensured HTTP traffic on port 80 was allowed**:
    - Next step was to configure the **Security Group** in the AWS Management Console to allow inbound HTTP traffic on port 80 for the EC2 instance.
@@ -134,11 +134,11 @@
             </ul>
         </nav>
     </header>
-<section>
+<section id="about">
     <h1>Welcome to Justice Connect</h1>
 </section>
 
-<section class="content">
+<section id="services">
     <p>Our mission is clear: to diminish instances of injustice, mitigate associated mental health challenges, and ensure equitable access to justice for all.</p>
     <p>Justice Connect is a platform dedicated to empowering individuals and communities by providing accessible legal resources and support. Its mission is to bridge the gap between people and the legal services they need, offering a range of services including legal consultations, advocacy, and educational tools. Whether you’re seeking advice, representation, or simply need to understand your rights, Justice Connect aims to make legal assistance easier to access, ensuring that everyone has the opportunity to seek justice and navigate the legal system with confidence.</p>
 </section>
@@ -184,7 +184,7 @@
 </section>
 
 
-<footer>
+<footer id="contact">
     <p>You can contact me on : </p>
     <ul>
         <li>Email @ <a href="mailto:ifunanyaakpuogwu@gmail.com" target="_blank">ifunanyaakpuogwu@gmail.com</a> </li>
@@ -223,11 +223,11 @@
 1. **Installed Certbot and Obtained a Free SSL Certificate from Let's Encrypt**:
    - Installed Certbot and the Apache plugin:
      ```bash
-     sudo apt install certbot python3-certbot-nginx -y
+     sudo apt install certbot python3-certbot-apache2 -y
      ```
    - Ran the following command to request an SSL certificate from Let’s Encrypt:
      ```bash
-     sudo certbot --nginx
+     sudo certbot --apache2
      ```
    - Followed the prompts to configure the SSL certificate for my domain (www.ifunanyaclaire.com).
 
@@ -271,5 +271,5 @@ The domain name associated with this project is:
 ---
 
 ## Conclusion
-This document details the steps i took to provision an AWS EC2 instance, install Nginx, deploy my Justice-connect landing page, configure networking, and enableD HTTPS for the server. With these steps, my Justice-connect landing page is now publicly accessible from any browser using the instance’s public IP.
+This document details the steps i took to provision an AWS EC2 instance, install Nginx, deploy my Justice-connect landing page, configure networking, and enabled HTTPS for the server. With these steps, my Justice-connect landing page is now publicly accessible from any browser using the instance’s public IP.
 
