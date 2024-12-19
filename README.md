@@ -226,20 +226,20 @@
      ```bash
      https://www.ifunanyaclaire.com
      ```
-   - The site should now load with a secure connection (`https://`).
+   - The site now loads with a secure connection (`https://`).
 
 ---
 
 ## Accessing the Site
 - **Public IP**: 
   - The site can be accessed at `http://18.202.253.7` for HTTP or `https://www.ifunanyaclaire.com` for HTTPS (with SSL configured).
-  - You can use this public IP address to view my landing page from your end.
+  - This public IP address can be used to view my landing page from your end.
 ---
 
 ## Screenshots
-- **Screenshot 1**: Showcasing the website running on my browser which i used the code below to send the screenshot from my local machine to my EC2 instance.
+- **Screenshot 2&3**: Showcasing the website running on my browser which i used the code below to send the screenshot from my local machine to my EC2 instance.
   ```bash
-  scp -i ~/.ssh/id_ed25519 ~/Desktop/screenshot2.png ubuntu@3.255.158.171:/home/ubuntu/
+  scp -i ~/.ssh/id_ed25519 ~/Desktop/screenshot2.png ubuntu@18.202.253.7:/home/ubuntu/
   ```
 ---
 
