@@ -17,7 +17,7 @@
 
 ## Web Server Setup
 1. **Installed Apache Web Server**:
-   - Once i connected to the EC2 instance, ran the following command to install Nginx:
+   - Once i connected to the EC2 instance, ran the following command to install Apache2:
      ```bash
      sudo apt update
      sudo apt install apache2 -y
@@ -29,6 +29,7 @@
    - Checked the firewall settings using the following command:
      ```bash
      sudo ufw allow 80/tcp
+     sudo ufw allow 443/tcp
      sudo ufw enable
      ```
 
@@ -207,7 +208,7 @@
 
 ---
 
-## HTTPS Configuration (Optional for Bonus)
+## HTTPS Configuration 
 1. **Installed Certbot and Obtained a Free SSL Certificate from Let's Encrypt**:
    - Installed Certbot and the Apache plugin:
      ```bash
@@ -217,13 +218,13 @@
      ```bash
      sudo certbot --nginx
      ```
-   - Followed the prompts to configure the SSL certificate for my domain (if using a domain) or the public IP address.
+   - Followed the prompts to configure the SSL certificate for my domain (www.ifunanyaclaire.com).
 
 2. **Configured Apache to Serve the Site Over HTTPS**:
    - Once the SSL certificate was successfully obtained, Apache was automatically configured to serve the website over HTTPS.
    - Verified the site could now be accessed securely using HTTPS:
      ```bash
-     https://<Public-IP>
+     https://www.ifunanyaclaire.com
      ```
    - The site should now load with a secure connection (`https://`).
 
@@ -231,7 +232,7 @@
 
 ## Accessing the Site
 - **Public IP**: 
-  - The site can be accessed at `http://3.255.158.171` for HTTP or `https://3.255.158.171` for HTTPS (with SSL configured).
+  - The site can be accessed at `http://18.202.253.7` for HTTP or `https://www.ifunanyaclaire.com` for HTTPS (with SSL configured).
   - You can use this public IP address to view my landing page from your end.
 ---
 
