@@ -10,7 +10,7 @@
 2. **Connected to the EC2 instance via SSH**:
    - Opened my terminal and ran the following command to SSH into the EC2 instance:
      ```bash
-     ssh -i "demo-keypair1.pem" ubuntu@3.255.158.171
+     ssh -i "demo-keypair1.pem" ubuntu@18.202.253.7
      ```
 
 ---
@@ -20,9 +20,9 @@
    - Once i connected to the EC2 instance, ran the following command to install Nginx:
      ```bash
      sudo apt update
-     sudo apt install nginx -y
+     sudo apt install apache2 -y
      ```
-   - This installs the Nginx HTTP server, which serves your web content.
+   - This installs the apache2 HTTP server, which serves your web content.
 
 2. **Ensured HTTP traffic on port 80 was allowed**:
    - Next step was to configure the **Security Group** in the AWS Management Console to allow inbound HTTP traffic on port 80 for the EC2 instance.
@@ -71,6 +71,51 @@
         h2,h3{
             background-color: #76c7f7; 
         }
+   .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color:  #76c7f7; /* Justice Connect's signature blue color */
+    color: #fff;
+}
+
+.logo-container .logo {
+    width: 150px;
+    height: auto;
+}
+
+.navigation .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #0066cc;
+    color: #fff;
+}
+
+.nav-links .cta {
+    background-color: #e63946; /* Highlight the Call-to-Action */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
     </style>
 
 </head>
@@ -104,10 +149,39 @@
     </p>
 </section>
 
+<section id="skills">
+    <h2>My Skills & Learning Journey</h2>
+    <p>I have been building my skills as a software engineer at Altschool Africa, and here's what I've learned so far:</p>
+    <ul>
+        <li><strong>Linux:</strong> Gained hands-on experience with Linux environments, command-line tools, and system administration.</li>
+        <li><strong>AWS:</strong> Worked with Amazon Web Services, including spinning up instances, configuring load balancers, and implementing autoscaling to build scalable systems.</li>
+        <li><strong>Bash Scripting:</strong> Proficient in writing Bash scripts to automate tasks, improve workflows, and manage server environments.</li>
+        <li><strong>HTML & CSS:</strong> Skilled in building responsive and visually appealing websites using HTML and CSS. I focus on clean, maintainable code.</li>
+    </ul>
+    <p>I'm excited to continue growing my skills and applying them to real-world projects!</p>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <p>Here are some of the projects I've worked on:</p>
+    <ul>
+        <li><a href="http://3.255.158.171/" target="_blank">AWS Instance Setup</a> - A project where i provisioned a server on AWS, installed a web server and deployed an html page on it.</li>
+        <li><a href="https://github.com/Clairebasil/Bash-learning" target="_blank">Automated Bash Scripts</a> - A set of scripts that automate various tasks in a Linux environment.</li>
+        <li><a href="https://clairebasil-first-semester.netlify.app/" target="_blank">Responsive Web Design</a> - A website I built with HTML and CSS, focusing on accessibility and responsive design.</li>
+    </ul>
+</section>
+
+
 <footer>
+    <p>You can contact me on : </p>
+    <ul>
+        <li>Email @ <a href="mailto:ifunanyaakpuogwu@gmail.com" target="_blank">ifunanyaakpuogwu@gmail.com</a> </li>
+        <li>Instagram @ <a href="https://www.instagram.com/ifunanya_claire" target="_blank">ifunanya_claire</a></li>
+        <li>Github @ <a href="https://github.com/ifunanya-claire" target="_blank">Akpuogwu Ifunanya Claire</a></li>
+
+    </ul>
     <p>&copy; 2024 Akpuogwu Ifunanya Claire. All Rights Reserved.</p>
 </footer>
-
 
 
     </body>
@@ -125,9 +199,9 @@
    - In the AWS Management Console, I updated the security group to allow inbound HTTP traffic on port 80 from all IP addresses (`0.0.0.0/0`).
 
 2. **Public IP**: 
-   - The public IP of the server is `3.255.158.171`, which allows users to access the HTML page by navigating to:
+   - The public IP of the server is `18.202.253.7`, which allows users to access the HTML page by navigating to:
      ```bash
-     http://<3.255.158.171>
+     http://<18.202.253.7>
      ```
    - This page can be accessed from any web browser using the EC2 instance's public IP address.
 
