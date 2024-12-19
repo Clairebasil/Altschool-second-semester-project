@@ -263,8 +263,8 @@ The domain name associated with this project is:
   ```bash
   scp -i ~/.ssh/id_ed25519 ~/Desktop/screenshot2.png ubuntu@18.202.253.7:/home/ubuntu/
   ```
-  ![Screenshot of HTML Page](./Screenshot 2024-12-19 at 11.03.16.png)
-  ![Screenshot of HTML Page](./s)
+  ![Screenshot of HTML Page](screenshot/screenshot 2024-12-19 at 11.03.16.png)
+  ![Screenshot of HTML Page](screenshot/screenshot3.png)
 
 
 ---
