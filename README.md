@@ -121,11 +121,22 @@
 
 </head>
 <body>
-   <img src="jc-connect.jpeg" alt="justice-connect logo">
-
-<header>
+   <header class="site-header">
+        <div class="logo-container">
+            <img src="jc-connect.jpeg" alt="Justice Connect Logo" class="logo">
+        </div>
+        <nav class="navigation">
+            <ul class="nav-links">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#donate" class="cta">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+<section>
     <h1>Welcome to Justice Connect</h1>
-</header>
+</section>
 
 <section class="content">
     <p>Our mission is clear: to diminish instances of injustice, mitigate associated mental health challenges, and ensure equitable access to justice for all.</p>
@@ -230,10 +241,21 @@
 
 ---
 
-## Accessing the Site
-- **Public IP**: 
-  - The site can be accessed at `http://18.202.253.7` for HTTP or `https://www.ifunanyaclaire.com` for HTTPS (with SSL configured).
-  - This public IP address can be used to view my landing page from your end.
+## Deliverables
+
+### 1. IP Address
+The server can be accessed using the following IP address:
+
+**`18.202.253.7`**  
+
+[Access via IP Address](http://18.202.253.7)
+### 2. Domain Name
+The domain name associated with this project is:
+
+**`www.ifunanyaclaire.com`**  
+
+[Access via Domain Name](https://www.ifunanyaclaire.com)
+
 ---
 
 ## Screenshots
@@ -241,6 +263,10 @@
   ```bash
   scp -i ~/.ssh/id_ed25519 ~/Desktop/screenshot2.png ubuntu@18.202.253.7:/home/ubuntu/
   ```
+  ![Screenshot of HTML Page](./Screenshot 2024-12-19 at 11.03.16.png)
+  ![Screenshot of HTML Page](./s)
+
+
 ---
 
 ## Conclusion
