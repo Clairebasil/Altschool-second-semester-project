@@ -273,3 +273,29 @@ The domain name associated with this project is:
 ## Conclusion
 This document details the steps i took to provision an AWS EC2 instance, install Nginx, deploy my Justice-connect landing page, configure networking, and enabled HTTPS for the server. With these steps, my Justice-connect landing page is now publicly accessible from any browser using the instance’s public IP.
 
+## 🤝 Contributions
+
+This repository is primarily for personal learning and documentation. However, if you find anything worth improving or would like to collaborate, feel free to:
+- Fork the repository.
+- Make changes.
+- Submit a pull request.
+
+---
+
+## 📧 Contact Me
+
+If you have any questions or would like to connect, feel free to reach out:
+- **Email**: ifunanyaakpuogwu@gmail.com
+- **GitHub**: [Clairebasil](https://github.com/Clairebasil)
+- **LinkedIn**: [[Akpuogwu ifunanya](https://www.linkedin.com/in/ifunanya-akpuogwu-702b981b2/)]
+
+---
+
+## 📝 License
+
+This repository is for educational purposes only and is licensed under the [MIT License](./LICENSE).
+
+---
+
+Thank you for checking out my work! Happy learning. 😊
+
